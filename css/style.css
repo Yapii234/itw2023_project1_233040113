@@ -201,7 +201,7 @@ section:nth-child(5) {
     transform: translateX(-50%);
 }
 .social-media a {
-    display: flex;
+    display: flex;  
     position: relative;
     right: 100px;
     top: 100px;
@@ -213,8 +213,7 @@ section:nth-child(5) {
     border-radius: 30%;
     font-size: 2rem;
     color: rgb(132, 219, 234);
-    margin: 3rem 1.5rem 3rem 0;
-    padding-top: 7px;
+    margin: 3rem ;
     transition: .5s ease;
 }
 .social-media a i{
@@ -317,7 +316,7 @@ section:nth-child(5) {
 
 
 .services-box i {
-    font-size: 7rem;
+    font-size: 112px;
     color:rgb(132, 219, 234);
 }
 
@@ -365,14 +364,6 @@ section:nth-child(5) {
 .project-box img {
     width: 78vh;
     height: auto;
-    transition: .5s ease;
-    transform: translateX(-10%);
-    
-}
-
-.project-box:hover img {
-    transform:scaleX(2)scaleY(2);
-    
 }
 
 .project-box .project-layer {
@@ -387,7 +378,6 @@ section:nth-child(5) {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0,2rem;
     transform: translateY(100%);
     transition: .5s ease;
 }
@@ -397,13 +387,13 @@ section:nth-child(5) {
 }
 
 .project-layer h4 {
-    font-size: 3rem;
+    font-size: 48px;
     color: #0b666a;
 }
 
 .project-layer p {
     font-size: 1.6rem;
-    margin: .3 0 1rem;
+    margin: .3 0 16px;
     color: #0b666a;
 }
 
@@ -411,14 +401,14 @@ section:nth-child(5) {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     background: #001113;
     border-radius: 50%;
 }
 
 .project-layer a i {
-    font-size: 2rem;
+    font-size: 32px;
     color: rgb(199, 175, 175);
 }
 
